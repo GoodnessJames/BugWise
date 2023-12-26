@@ -1,1 +1,1 @@
-# BugWise
+# BugWise Audio Journal
