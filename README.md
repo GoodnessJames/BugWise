@@ -2,7 +2,6 @@
 ![Screenshot (49)](https://github.com/GoodnessJames/BugWise/assets/128673364/7ad8df13-f0fe-432e-b1fa-4e5501def7f2)
 
 ## Introduction
-
 BugWise Audio Journal is a revolutionary web application that redefines collaboration and bug tracking by leveraging the power of spoken documentation. Say goodbye to text-based bug trackers and embrace a more efficient, flexible, and connected bug-fixing experience.
 
 - **Deployed Site:** [BugWise Audio Journal](https://bugwise.pythonanywhere.com/home)
