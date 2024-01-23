@@ -1,8 +1,14 @@
 # BugWise Audio Journal
 ## Introduction
-Ever found yourself struggling with debugging, wishing there was a more intuitive way to navigate through coding challenges? Bugwise Audio Journal is the revolutionary solution you've been waiting for.
+Ever found yourself struggling with debugging, wishing there was a more intuitive way to navigate through coding challenges?
 
-Bugwise Audio Journal transforms the debugging experience by harnessing the power of voice. It's not just a tool; it's a paradigm shift in how developers approach debugging. The project empowers developers, from beginners to seasoned professionals, to document their debugging journey through the rich medium of audio. Say goodbye to text-based bug trackers and embrace a more efficient, flexible, and connected bug-fixing experience.
+Bugwise Audio Journal is the revolutionary solution you've been waiting for.
+
+Bugwise Audio Journal transforms the debugging experience by harnessing the power of voice. It's not just a tool; it's a 
+paradigm shift in how developers approach debugging. The project empowers developers, from beginners to seasoned professionals,
+to document their debugging journey through the rich medium of audio. Say goodbye to text-based bug trackers and embrace a mre efficient, flexible, and connected bug-fixing experience.
+
+![Screenshot (49)](https://github.com/GoodnessJames/BugWise/assets/128673364/cd5fd36a-a255-4b12-92ed-c7606e4cb073)
 
 ## Key Features
 ### User Registration and Authentication:
@@ -22,7 +28,7 @@ Bugwise Audio Journal transforms the debugging experience by harnessing the powe
 
 **Deployed Site:** [BugWise Audio Journal](https://bugwise.pythonanywhere.com/home)
 
-**Final Project Blog Article:** [BugWise Blog](https://link-to-final-blog-article.com)
+**Final Project Blog Article:** [BugWise Blog]()
 
 **Authors LinkedIn:**
   - [Goodness James Akoma](https://www.linkedin.com/goodness-akoma)
@@ -47,12 +53,12 @@ pip install -r requirements.txt
 
 # Start the application
 python app.py
+```
 
 ## Usage
 1. Visit the deployed site: BugWise Audio Journal
 2. Explore the intuitive interface to record and manage bug entries.
 3. Leverage the audio documentation feature for a seamless bug-tracking experience.
-```
 
 ## Contributing
 We welcome contributions! To contribute to BugWise Audio Journal, follow these steps:
