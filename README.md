@@ -1,11 +1,14 @@
 # BugWise Audio Journal
 ## Introduction
-Ever found yourself struggling with debugging, wishing there was a more intuitive way to navigate through coding challenges? Bugwise Audio Journal is the revolutionary solution you've been waiting for.
+Ever found yourself struggling with debugging, wishing there was a more intuitive way to navigate through coding challenges?
+
+Bugwise Audio Journal is the revolutionary solution you've been waiting for.
+
+Bugwise Audio Journal transforms the debugging experience by harnessing the power of voice. It's not just a tool; it's a 
+paradigm shift in how developers approach debugging. The project empowers developers, from beginners to seasoned professionals,
+to document their debugging journey through the rich medium of audio. Say goodbye to text-based bug trackers and embrace a mre efficient, flexible, and connected bug-fixing experience.
 
 ![Screenshot (49)](https://github.com/GoodnessJames/BugWise/assets/128673364/cd5fd36a-a255-4b12-92ed-c7606e4cb073)
-
-
-Bugwise Audio Journal transforms the debugging experience by harnessing the power of voice. It's not just a tool; it's a paradigm shift in how developers approach debugging. The project empowers developers, from beginners to seasoned professionals, to document their debugging journey through the rich medium of audio. Say goodbye to text-based bug trackers and embrace a more efficient, flexible, and connected bug-fixing experience.
 
 ## Key Features
 ### User Registration and Authentication:
@@ -27,12 +30,7 @@ Bugwise Audio Journal transforms the debugging experience by harnessing the powe
 
 **Final Project Blog Article:** [BugWise Blog]()
 
-## Introduction
-BugWise Audio Journal is a revolutionary web application that redefines collaboration and bug tracking by leveraging the power of spoken documentation.
-
-Say goodbye to text-based bug trackers and embrace a more efficient, flexible, and connected bug-fixing experience.
-
-**Author(s) LinkedIn:**
+**Authors LinkedIn:**
   - [Goodness James Akoma](https://www.linkedin.com/goodness-akoma)
   - [Elizabeth Ginika Nna](https://www.linkedin.com/in/ginika-elizabeth-nna-b17573117/)
 
