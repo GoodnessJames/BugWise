@@ -6,9 +6,10 @@ Bugwise Audio Journal is the revolutionary solution you've been waiting for.
 
 Bugwise Audio Journal transforms the debugging experience by harnessing the power of voice. It's not just a tool; it's a 
 paradigm shift in how developers approach debugging. The project empowers developers, from beginners to seasoned professionals,
-to document their debugging journey through the rich medium of audio. Say goodbye to text-based bug trackers and embrace a mre efficient, flexible, and connected bug-fixing experience.
+to document their debugging journey through the rich medium of audio. Say goodbye to text-based bug trackers and embrace a more efficient, flexible, and connected bug-fixing experience.
 
-![Screenshot (49)](https://github.com/GoodnessJames/BugWise/assets/128673364/cd5fd36a-a255-4b12-92ed-c7606e4cb073)
+![bugwise_img](https://github.com/GoodnessJames/BugWise/assets/128673364/0c55b29d-587d-4c39-a7a7-1d0bb32f1f11)
+
 
 ## Key Features
 ### User Registration and Authentication:
