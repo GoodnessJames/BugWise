@@ -18,7 +18,7 @@ to document their debugging journey through the rich medium of audio. Say goodby
   - Rely on robust Python frameworks for user authentication, ensuring a secure and seamless process.
 
 ### Voice Recording:
-  - Bugwise becomes your coding companion, capturing and storing audio data with the Python library, Sounddevice.
+  - Bugwise becomes your coding companion, capturing and storing audio data with JavaScript Web API.
   - Articulate your thoughts and debugging process with ease, turning spoken words into a rich tapestry of insights.
 
 ### High-Quality Audio Decoding:
