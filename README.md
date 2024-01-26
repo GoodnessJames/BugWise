@@ -1,4 +1,6 @@
 # BugWise Audio Journal
+![Screenshot (54)](https://github.com/GoodnessJames/BugWise/assets/128673364/059ef7cd-22bc-4958-b9ba-023a41a5000c)
+
 ## Introduction
 Ever found yourself struggling with debugging, wishing there was a more intuitive way to navigate through coding challenges?
 
@@ -8,8 +10,7 @@ Bugwise Audio Journal transforms the debugging experience by harnessing the powe
 paradigm shift in how developers approach debugging. The project empowers developers, from beginners to seasoned professionals,
 to document their debugging journey through the rich medium of audio. Say goodbye to text-based bug trackers and embrace a more efficient, flexible, and connected bug-fixing experience.
 
-![bugwise_img](https://github.com/GoodnessJames/BugWise/assets/128673364/0c55b29d-587d-4c39-a7a7-1d0bb32f1f11)
-
+![Screenshot (53)](https://github.com/GoodnessJames/BugWise/assets/128673364/b6299b70-24a0-40bd-983f-08aef419c09b)
 
 ## Key Features
 ### User Registration and Authentication:
@@ -27,9 +28,11 @@ to document their debugging journey through the rich medium of audio. Say goodby
   - Harmoniously combine spoken explanations with traditional text annotations for a comprehensive debugging diary.
   - Seamless integration of HTML and CSS allows developers to complement audio recordings with text annotations.
 
+![bb](https://github.com/GoodnessJames/BugWise/assets/128673364/08e84aed-580a-44c5-80d4-b5fe1c1bf482)
+
 **Deployed Site:** [BugWise Audio Journal](https://bugwise.pythonanywhere.com/home)
 
-**Final Project Blog Article:** [BugWise Blog]()
+**Final Project Blog Article:** [BugWise Blog](https://medium.com/@goodnessakoma/bugwise-audio-journal-a2f85f0212d2)
 
 **Authors LinkedIn:**
   - [Goodness James Akoma](https://www.linkedin.com/goodness-akoma)
@@ -53,11 +56,11 @@ source env/bin/activate
 pip install -r requirements.txt
 
 # Start the application
-python app.py
+python run.py
 ```
 
 ## Usage
-1. Visit the deployed site: BugWise Audio Journal
+1. Visit the deployed site: [BugWise Audio Journal](https://bugwise.pythonanywhere.com/home)
 2. Explore the intuitive interface to record and manage bug entries.
 3. Leverage the audio documentation feature for a seamless bug-tracking experience.
 
