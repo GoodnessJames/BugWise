@@ -21,7 +21,6 @@ def upgrade():
     with op.batch_alter_table('post', schema=None) as batch_op:
         batch_op.add_column(sa.Column('audio_data', sa.String(length=255), nullable=True))
         batch_op.drop_column('audio_file')
-
     # ### end Alembic commands ###
 
 
@@ -30,5 +29,4 @@ def downgrade():
     with op.batch_alter_table('post', schema=None) as batch_op:
         batch_op.add_column(sa.Column('audio_file', sa.VARCHAR(length=255), nullable=True))
         batch_op.drop_column('audio_data')
-
     # ### end Alembic commands ###
