@@ -1,5 +1,5 @@
 # BugWise Audio Journal
-![Screenshot (54)](https://github.com/GoodnessJames/BugWise/assets/128673364/059ef7cd-22bc-4958-b9ba-023a41a5000c)
+![BugWise_landingPage](https://github.com/GoodnessJames/BugWise/assets/128673364/059ef7cd-22bc-4958-b9ba-023a41a5000c)
 
 ## Introduction
 Everyone deserves to have an archive of their bug fixes. It's an annoying thing to be faced with a bug you've resolved in the past but you're completely clueless on how you went about the solution. Bugs should not just be fixed but have a story too! This is why we created **BugWise**.
