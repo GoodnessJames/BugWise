@@ -15,6 +15,7 @@ BugWise Audio Journal serves as our Portfolio Project, marking the culmination o
 We are two content creation enthusiasts who are passionate about coding but also like to keep it fun!
 -  [Goodness James, Akoma](https://linkedin.com/in/goodness-akoma) - Transcriber, Cybersecurity specialist, Skin-care enthusiast, Cat lover but also a very talented Software Engineer.
 - [Elizabeth Ginika, Nna](https://www.linkedin.com/in/ginika-elizabeth-nna-b17573117/) - Economist, Content writer, and Customer support specialist, the "fashionista touch" Software Engineer of the team.
+
 Follow us on LinkedIn for tech-related awesomeness!
 
 ## Blog Posts
@@ -45,20 +46,30 @@ Here is a little preview of our main features:
 
 ## Known Bugs
 Some mobile devices are not able to use the recording feature of BugWise even after granting microphone permission.
+
 The text input of bug posts are squished vertically when viewing on mobile.
 
 ## Architecture
 ### Overview
 Our web app is built with the Flask framework, coded mainly in Python. BugWise is back-end heavy, meaning that we focused our time and energy on developing a simple but easy-to-use app. We designed most of the User Interface, using plain CSS and HTML. We also incorporated some Bootstrap elements which offered a nice styling to the web app.
+![BugWise_architecture](https://github.com/GoodnessJames/BugWise/assets/128673364/253b8a9f-8fb5-41b5-bdea-e4c0001996be)
+
 
 ## Built With
 Python - The Backend Language
+
 Javascript - The Media Recorder API
+
 HTML - The Frontend Structure
+
 CSS - The Frontend Styling
+
 Flask - The Web Development Framework
+
 Jinja2 - Templating Engine
+
 SQLAlchemy - Python SQL Toolkit and Object Relational Mapper
+
 SQLite - Database Management System
 
 ## Future
@@ -79,11 +90,11 @@ We welcome contributions! To contribute to BugWise Audio Journal, follow these s
 5. Open a Pull Request
 
 ## Acknowledgments
-ALX SE School - For the help, advice, and resources they provided us with during this project and our curriculum.
+**ALX SE School** - For the help, advice, and resources they provided us with during this project and our curriculum.
 
-Corey Schafer - Our perennial go-to expert for Flask tutorials.
+**Corey Schafer** - Our perennial go-to expert for Flask tutorials.
 
-YOU - For reading this documentation and testing out BugWise. We hope you enjoyed the ride!
+**YOU** - For reading this documentation and testing out BugWise. We hope you enjoyed the ride!
 
 ## Related Projects
 [AirBnB Clone](https://github.com/GoodnessJames/AirBnB_clone_v4): A simple web app made in Python, Flask, and JQuery.
