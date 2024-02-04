@@ -11,13 +11,9 @@ class RegistrationForm(FlaskForm):
 
     Attributes:
     - username (StringField): Field for entering the desired username.
-
     - email (StringField): Field for entering the email address.
-
     - password (PasswordField): Field for entering the password.
-
     - confirm_password (PasswordField): Field for confirming the password.
-
     - submit (SubmitField): Button to submit the registration form.
       Label: 'Sign Up'
     """
@@ -64,11 +60,8 @@ class LoginForm(FlaskForm):
 
     Attributes:
     - email (StringField): Field for entering the user's email address.
-
     - password (PasswordField): Field for entering the user's password.
-
     - remember (BooleanField): Checkbox for the user to indicate whether to remember the login session.
-
     - submit (SubmitField): Button to submit the login form.
       Label: 'Login'
     """
@@ -84,11 +77,8 @@ class UpdateAccountForm(FlaskForm):
 
     Attributes:
     - username (StringField): Field for updating the username.
-
     - email (StringField): Field for updating the email address.
-
     - picture (FileField): Field for updating the user's profile picture.
-
     - submit (SubmitField): Button to submit the account update form.
       Label: 'Update'
     """
@@ -136,11 +126,8 @@ class PostForm(FlaskForm):
 
     Attributes:
     - title (StringField): Field for entering the title of the post.
-
     - content (TextAreaField): Field for entering the content of the post.
-
     - audio_data (FileField): Field for uploading an audio file related to the post.
-
     - submit (SubmitField): Button to submit the post form.
       Label: 'Post'
     """
