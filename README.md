@@ -12,7 +12,7 @@ Bugwise transforms the debugging experience by harnessing the power of voice. It
 BugWise Audio Journal serves as our Portfolio Project, marking the culmination of our Foundations Year at ALX SE (Holberton) School. Within this initiative, we had the autonomy to select both our collaborative partners and the project we wished to undertake. The sole requirement was the delivery of a functional program by the conclusion of the three-week development period.
 
 ## The Timeline
-Dec 1, 2023 6:00 AM to Jan 26, 2024 6:00 AM
+Dec 22, 2023 6:00 AM to Jan 26, 2024 6:00 AM
 
 ## The Team
 We are two content creation enthusiasts who are passionate about coding but also like to keep it fun!
