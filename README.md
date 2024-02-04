@@ -77,9 +77,12 @@ There are plenty of features that we would love to implement into BugWise in the
 - Adding a comment feature, sharing a post, and connecting with the post author.
 - Include code snippets and attach images to bug posts.
 - Activate the sidebar.
-- Set posts to public or private.
+- Set post visibility to public or private.
 - Include search functionality.
 - Implement tags & categorize bug posts.
+
+## Project Timeline
+Dec 1, 2023 6:00 AM to Jan 26, 2024 6:00 AM
 
 ## Contributions
 We welcome contributions! To contribute to BugWise Audio Journal, follow these steps:
