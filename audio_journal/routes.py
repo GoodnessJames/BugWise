@@ -155,9 +155,9 @@ def account():
       Redirects to the 'account' page for display.
 
     Returns:
-    - GET: render_template: Renders the 'account.html' template with the user's profile information.
-    - POST: redirect: Redirects to the 'account' page upon successful account update.
-      Displays a flash message on unsuccessful update attempts.
+    GET: render_template: Renders the 'account.html' template with the user's profile information.
+    POST: redirect: Redirects to the 'account' page upon successful account update.
+    Displays a flash message on unsuccessful update attempts.
     """
     form = UpdateAccountForm()
     if form.validate_on_submit():
@@ -189,9 +189,9 @@ def new_post():
       Redirects to the home page upon successful post creation.
 
     Returns:
-    - GET: render_template: Renders the 'create_post.html' template with the post creation form.
-    - POST: redirect: Redirects to the home page upon successful post creation.
-      Displays a flash message on unsuccessful post creation attempts.
+    GET: render_template: Renders the 'create_post.html' template with the post-creation form.
+    POST: redirect: Redirects to the home page upon successful post creation.
+    Displays a flash message on unsuccessful post-creation attempts.
     """
     form = PostForm()
     if form.validate_on_submit():
@@ -218,7 +218,7 @@ def post(post_id):
     - post_id (int): The unique identifier of the post to be displayed.
 
     Returns:
-    - render_template: Renders the 'post.html' template with the details of the specified post.
+    render_template: Renders the 'post.html' template with the details of the specified post.
     """
     post = Post.query.get_or_404(post_id)
     return render_template("post.html", title=post.title, post=post)
