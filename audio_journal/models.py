@@ -13,7 +13,7 @@ def load_user(user_id):
     - user_id (str): The user ID retrieved from the session.
 
     Returns:
-    - User: The user object corresponding to the provided user ID.
+    User: The user object corresponding to the provided user ID.
     """
     return User.query.get(int(user_id))
 
@@ -48,7 +48,7 @@ class User(db.Model, UserMixin):
         Returns a string representation of the User object.
 
         Returns:
-        - str: A string containing information about the User instance,
+        str: A string containing information about the User instance,
         including username, email, and profile image file.
         """
         return f"User('{self.username}', '{self.email}', '{self.image_file}')"
