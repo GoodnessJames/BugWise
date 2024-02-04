@@ -11,6 +11,9 @@ Bugwise transforms the debugging experience by harnessing the power of voice. It
 ## The Context
 BugWise Audio Journal serves as our Portfolio Project, marking the culmination of our Foundations Year at ALX SE (Holberton) School. Within this initiative, we had the autonomy to select both our collaborative partners and the project we wished to undertake. The sole requirement was the delivery of a functional program by the conclusion of the three-week development period.
 
+## The Timeline
+Dec 1, 2023 6:00 AM to Jan 26, 2024 6:00 AM
+
 ## The Team
 We are two content creation enthusiasts who are passionate about coding but also like to keep it fun!
 -  [Goodness James, Akoma](https://linkedin.com/in/goodness-akoma) - Transcriber, Cybersecurity specialist, Skin-care enthusiast, Cat lover but also a very talented Software Engineer.
@@ -80,9 +83,6 @@ There are plenty of features that we would love to implement into BugWise in the
 - Set post visibility to public or private.
 - Include search functionality.
 - Implement tags & categorize bug posts.
-
-## Project Timeline
-Dec 1, 2023 6:00 AM to Jan 26, 2024 6:00 AM
 
 ## Contributions
 We welcome contributions! To contribute to BugWise Audio Journal, follow these steps:
