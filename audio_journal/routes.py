@@ -22,6 +22,24 @@ def verify_reset_token(token):
         return None
     return User.query.get(user_id)
 
+# Route to handle password reset request
+@app.route("/reset_password", methods=['GET', 'POST'])
+def reset_request():
+    if current_user.is_authenticated:
+        return redirect(url_for('home'))
+    form = RequestPasswordResetForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(email=form.email.data).first()
+        if user:
+            token = generate_reset_token(user)
+            # Here you should send the password reset email containing the token
+            flash('An email has been sent with instructions to reset your password.', 'info')
+            return redirect(url_for('login'))
+        else:
+            flash('There is no account with that email. You must register first.', 'warning')
+    return render_template('reset_request.html', title='Reset Password', form=form)
+
+
 
 @app.route("/")
 @app.route("/home")
