@@ -6,6 +6,7 @@ from audio_journal import app, db, bcrypt
 from audio_journal.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm
 from audio_journal.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
+from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 
 
 @app.route("/")
