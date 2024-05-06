@@ -33,7 +33,7 @@ def get_audio(post_id):
     - post_id (int): The unique identifier of the post for which audio data is requested.
 
     Returns:
-    send_file: Sends the audio data file (in Ogg format) associated with the post as an attachment for download. If no audio data is available, raises a 404 error.
+    send_file: Sends the audio data file (in OGG format) associated with the post as an attachment for download. If no audio data is available, raises a 404 error.
     """
     post = Post.query.get_or_404(post_id)
     if post.audio_data:
