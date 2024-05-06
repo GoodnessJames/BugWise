@@ -50,7 +50,7 @@ Here is a little preview of our main features:
 ## Known Bugs
 Some mobile devices are not able to use the recording feature of BugWise even after granting microphone permission.
 
-The text input of bug posts are squished vertically when viewing on mobile.
+The text input of bug posts is squished vertically when viewing on mobile.
 
 ## Architecture
 ### Overview
