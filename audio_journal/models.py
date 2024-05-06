@@ -67,7 +67,7 @@ class Post(db.Model):
     - user_id (int): Foreign key referencing the 'id' of the User who authored the post.
 
     Methods:
-    - __repr__(): Returns a string representation of the Post object.
+    __repr__(): Returns a string representation of the Post object.
 
     Note:
     The 'user_id' establishes a many-to-one relationship with the 'User' model.
