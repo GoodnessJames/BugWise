@@ -40,7 +40,7 @@ def reset_request():
     return render_template('reset_request.html', title='Reset Password', form=form)
 
 
-# Route to handle password reset with token
+# Route to handle password reset with token.
 @app.route("/reset_password/<token>", methods=['GET', 'POST'])
 def reset_token(token):
     if current_user.is_authenticated:
