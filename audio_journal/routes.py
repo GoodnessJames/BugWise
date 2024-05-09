@@ -8,7 +8,7 @@ from audio_journal.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 
-# Function to generate a password reset token.
+# Function to generate password reset token.
 def generate_reset_token(user, expires_sec=1800):
     s = Serializer(app.config['SECRET_KEY'], expires_sec)
     return s.dumps({'user_id': user.id}).decode('utf-8')
