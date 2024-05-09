@@ -22,7 +22,7 @@ def verify_reset_token(token):
         return None
     return User.query.get(user_id)
 
-# Route to handle password reset request
+# Route to handle password reset request.
 @app.route("/reset_password", methods=['GET', 'POST'])
 def reset_request():
     if current_user.is_authenticated:
