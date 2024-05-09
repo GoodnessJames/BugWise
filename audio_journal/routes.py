@@ -13,7 +13,7 @@ def generate_reset_token(user, expires_sec=1800):
     s = Serializer(app.config['SECRET_KEY'], expires_sec)
     return s.dumps({'user_id': user.id}).decode('utf-8')
 
-# Function to verify a password reset token
+# Function to verify a password reset token.
 def verify_reset_token(token):
     s = Serializer(app.config['SECRET_KEY'])
     try:
