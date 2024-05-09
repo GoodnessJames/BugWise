@@ -7,10 +7,10 @@ Everyone deserves to have an archive of their bug fixes. It's an annoying thing 
 Bugwise transforms the debugging experience by harnessing the power of voice. It's not just a tool; it's a paradigm shift in how developers approach debugging. Developers can post a voice recording of their bug fixes alongside the bug title and provide some text annotation for context. BugWise empowers developers, from beginners to seasoned professionals, to document their debugging journey through the rich medium of audio. Now, say goodbye to text-based bug trackers and embrace a more efficient, flexible, and connected bug-fixing experience.
 
 BugWise offers a user-friendly interface where developers can seamlessly upload voice recordings, annotate bug reports, and collaborate with team members.
-
 The platform supports various audio formats and provides robust search and filtering capabilities, making it effortless to retrieve and reference bug fixes whenever needed.
 
 In addition to preserving individual bug fixes, BugWise aggregates debugging data to identify patterns, trends, and common pitfalls across projects.This analytical feature empowers teams to proactively address recurring issues, streamline workflows, and enhance overall code quality.
+
 ![Screenshot (53)](https://github.com/GoodnessJames/BugWise/assets/128673364/b6299b70-24a0-40bd-983f-08aef419c09b)
 
 ## The Context
