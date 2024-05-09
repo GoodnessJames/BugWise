@@ -32,7 +32,7 @@ def reset_request():
         user = User.query.filter_by(email=form.email.data).first()
         if user:
             token = generate_reset_token(user)
-            # Here you should send the password reset email containing the token
+            # Here you should send the password reset email containing the token.
             flash('An email has been sent with instructions to reset your password.', 'info')
             return redirect(url_for('login'))
         else:
