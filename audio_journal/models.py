@@ -63,7 +63,6 @@ class Post(db.Model):
     - title (str): Title of the post (maximum length: 100 characters).
     - date_posted (datetime): Date and time when the post was created.
     - content (str): Content of the post.
-    - audio_data (str): File name or identifier for associated audio data (nullable).
     - user_id (int): Foreign key referencing the 'id' of the User who authored the post.
 
     Methods:
@@ -77,7 +76,6 @@ class Post(db.Model):
     date_posted = db.Column(db.DateTime, nullable=False,
                             default=datetime.utcnow)
     content = db.Column(db.Text, nullable=False)
-    audio_data = db.Column(db.String(255), nullable=True)  # New field for audio data
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
 
     def __repr__(self):

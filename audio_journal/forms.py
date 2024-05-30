@@ -127,11 +127,9 @@ class PostForm(FlaskForm):
     Attributes:
     - title (StringField): Field for entering the post's title.
     - content (TextAreaField): Field for entering the post's content.
-    - audio_data (FileField): Field for uploading an audio file related to the post.
     - submit (SubmitField): Button to submit the post form.
       Label: 'Post'
     """
     title = StringField('Title', validators=[DataRequired()])
     content = TextAreaField('Content', validators=[DataRequired()])
-    audio_data = FileField('Record Audio')
     submit = SubmitField('Post')

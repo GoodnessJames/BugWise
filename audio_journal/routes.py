@@ -24,22 +24,6 @@ def home():
     posts = Post.query.order_by(Post.date_posted.desc()).paginate(page=page, per_page=5)
     return render_template("home.html", posts=posts)
 
-@app.route("/audio/<int:post_id>")
-def get_audio(post_id):
-    """
-    Route handler for retrieving and serving audio data associated with a specific post.
-
-    Parameters:
-    - post_id (int): The unique identifier of the post for which audio data is requested.
-
-    Returns:
-    send_file: Sends the audio data file (in OGG format) associated with the post as an attachment for download. If no audio data is available, raises a 404 error.
-    """
-    post = Post.query.get_or_404(post_id)
-    if post.audio_data:
-        return send_file(BytesIO(post.audio_data), mimetype="audio/ogg", as_attachment=True, download_name=f"audio_{post_id}.ogg")
-    else:
-        abort(404)
 
 
 @app.route("/about")
@@ -195,13 +179,8 @@ def new_post():
     """
     form = PostForm()
     if form.validate_on_submit():
-        post = Post(title=form.title.data, content=form.content.data, audio_data=form.audio_data.data, author=current_user)
+        post = Post(title=form.title.data, content=form.content.data, author=current_user)
         
-        if form.audio_data.data:
-            audio_filename = f"{datetime.utcnow().strftime('%Y%m%d%H%M%S')}.mp3" 
-            audio_path = os.path.join(app.root_path, 'static/audio', audio_filename)
-            form.audio_file.data.save(audio_path)
-            post.audio_file = audio_filename
         db.session.add(post)
         db.session.commit()
         flash('Your post has been created!', 'success')
@@ -250,14 +229,12 @@ def update_post(post_id):
     if form.validate_on_submit():
         post.title = form.title.data
         post.content = form.content.data
-        post.audio_data = form.audio_data.data
         db.session.commit()
         flash('Your post has been updated!', 'success')
         return redirect(url_for('post', post_id=post.id))
     elif request.method == 'GET':
         form.title.data = post.title
         form.content.data = post.content
-        form.audio_data.data = post.audio_data
     return render_template("create_post.html", title="Update Post", form=form, legend='Update Post')
 
 

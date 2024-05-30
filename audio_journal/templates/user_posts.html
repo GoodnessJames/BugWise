@@ -11,11 +11,6 @@
                 </div>
                 <h2><a class="article-title" href="{{ url_for('post', post_id=post.id) }}">{{ post.title }}</a></h2>
                 <p class="article-content">{{ post.content }}</p>
-                {% if post.audio_data %}
-                    <audio controls>
-                        <source src="{{ url_for('static', filename='audio/' + post.audio_file) }}" type="audio/ogg">
-                        Your browser does not support the audio element.
-                    </audio>
                 {% endif %}
             </div>
         </article>
