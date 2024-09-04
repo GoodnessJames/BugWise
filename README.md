@@ -16,7 +16,7 @@ Dec 22, 2023 6:00 AM to Jan 26, 2024 6:00 AM
 
 ## The Team
 We are two content creation enthusiasts who are passionate about coding but also like to keep it fun!
--  [Goodness James, Akoma](https://linkedin.com/in/goodness-akoma) - Transcriber, Cybersecurity specialist, Skin-care enthusiast, Cat lover but also a very talented Software Engineer.
+-  [Goodness James, Akoma](https://linkedin.com/in/goodness-akoma) - IT & Research Consultant, Skin-care & Beauty Coach, and Cat lover but also a very talented Software Engineer with a flair for writing.
 - [Elizabeth Ginika, Nna](https://www.linkedin.com/in/ginika-elizabeth-nna-b17573117/) - Economist, Content writer, and Customer support specialist, the "fashionista touch" Software Engineer of the team.
 
 Follow us on LinkedIn for tech-related awesomeness!
