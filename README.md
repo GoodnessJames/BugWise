@@ -2,11 +2,11 @@
 ![BugWise_landingPage](https://github.com/GoodnessJames/BugWise/assets/128673364/059ef7cd-22bc-4958-b9ba-023a41a5000c)
 
 ## Introduction
-Everyone deserves to have an archive of their bug fixes. It's an annoying thing to be faced with a bug you've resolved in the past but you're completely clueless on how you went about the solution. Bugs should not just be fixed but have a story too! This is why we created **BugWise**.
+Everyone deserves to have an archive of their bug fixes. It's an annoying thing to be faced with a bug you've resolved in the past but you're completely clueless on how you went about the solution. Bugs should not just be fixed but have a story too. This is why we created **BugWise**!
 
 Bugwise transforms the debugging experience by harnessing the power of voice. It's not just a tool; it's a paradigm shift in how developers approach debugging. Developers can post a voice recording of their bug fixes alongside the bug title and provide some text annotation for context. BugWise empowers developers, from beginners to seasoned professionals, to document their debugging journey through the rich medium of audio. 
 
-Now, say goodbye to text-based bug trackers and embrace a more efficient, flexible, and connected bug-fixing experience.
+Now, say goodbye to text-based bug trackers and embrace a more efficient, flexible, and connected bug-fixing experience!
 
 ![Screenshot (53)](https://github.com/GoodnessJames/BugWise/assets/128673364/b6299b70-24a0-40bd-983f-08aef419c09b)
 
