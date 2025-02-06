@@ -4,7 +4,9 @@
 ## Introduction
 Everyone deserves to have an archive of their bug fixes. It's an annoying thing to be faced with a bug you've resolved in the past but you're completely clueless on how you went about the solution. Bugs should not just be fixed but have a story too! This is why we created **BugWise**.
 
-Bugwise transforms the debugging experience by harnessing the power of voice. It's not just a tool; it's a paradigm shift in how developers approach debugging. Developers can post a voice recording of their bug fixes alongside the bug title and provide some text annotation for context. BugWise empowers developers, from beginners to seasoned professionals, to document their debugging journey through the rich medium of audio. Now, say goodbye to text-based bug trackers and embrace a more efficient, flexible, and connected bug-fixing experience.
+Bugwise transforms the debugging experience by harnessing the power of voice. It's not just a tool; it's a paradigm shift in how developers approach debugging. Developers can post a voice recording of their bug fixes alongside the bug title and provide some text annotation for context. BugWise empowers developers, from beginners to seasoned professionals, to document their debugging journey through the rich medium of audio. 
+
+Now, say goodbye to text-based bug trackers and embrace a more efficient, flexible, and connected bug-fixing experience.
 
 ![Screenshot (53)](https://github.com/GoodnessJames/BugWise/assets/128673364/b6299b70-24a0-40bd-983f-08aef419c09b)
 
@@ -16,7 +18,7 @@ Dec 22, 2023 6:00 AM to Jan 26, 2024 6:00 AM
 
 ## The Team
 We are two content creation enthusiasts who are passionate about coding but also like to keep it fun!
--  [Goodness James, Akoma](https://linkedin.com/in/goodness-akoma) - IT & Research Consultant, Skin-care & Beauty Coach, and Cat lover but also a very talented Software Developer with a flair for writing.
+-  [Goodness James, Akoma](https://linkedin.com/in/goodness-akoma) - Technical writer & Chat support agent, Skincare & Beauty guide, and Cat lover but also a very talented Software Developer with a flair for content creation.
 - [Elizabeth Ginika, Nna](https://www.linkedin.com/in/ginika-elizabeth-nna-b17573117/) - Economist, Content writer, and Customer support specialist, the "fashionista touch" Software Engineer of the team.
 
 Follow us on LinkedIn for tech-related awesomeness!
