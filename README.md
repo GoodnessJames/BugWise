@@ -1,4 +1,4 @@
-<img width="1366" height="581" alt="BugWise" src="https://github.com/user-attachments/assets/437880e5-4de6-4abd-9b57-d7975c8531db" /># BugWise Audio Journal
+# BugWise Audio Journal
 ![BugWise_landingPage](https://github.com/GoodnessJames/BugWise/assets/128673364/059ef7cd-22bc-4958-b9ba-023a41a5000c)
 
 ## Introduction
