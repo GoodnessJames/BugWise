@@ -1,4 +1,4 @@
-# BugWise Audio Journal
+<img width="1366" height="581" alt="BugWise" src="https://github.com/user-attachments/assets/437880e5-4de6-4abd-9b57-d7975c8531db" /># BugWise Audio Journal
 ![BugWise_landingPage](https://github.com/GoodnessJames/BugWise/assets/128673364/059ef7cd-22bc-4958-b9ba-023a41a5000c)
 
 ## Introduction
@@ -8,7 +8,7 @@ Bugwise transforms the debugging experience by harnessing the power of voice. It
 
 Now, say goodbye to text-based bug trackers and embrace a more efficient, flexible, and connected bug-fixing experience!
 
-![Screenshot (53)](https://github.com/GoodnessJames/BugWise/assets/128673364/b6299b70-24a0-40bd-983f-08aef419c09b)
+<img width="1366" height="581" alt="BugWise" src="https://github.com/user-attachments/assets/c8ccf4bb-192f-468b-badc-37f4c90c47fe" />
 
 ## The Context
 BugWise Audio Journal serves as our Portfolio Project, marking the culmination of our Foundations Year at ALX SE (Holberton) School. Within this initiative, we had the autonomy to select both our collaborative partners and the project we wished to undertake. The sole requirement was the delivery of a functional program by the conclusion of the three-week development period.
